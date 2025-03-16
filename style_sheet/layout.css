@@ -1,0 +1,175 @@
+html, body{
+    min-width: 100%;
+    max-width: 100%;
+}
+.main{
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.frame_1{
+    width: 100vw;
+    height: calc(900vw/14);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    width: calc(600vw/14);
+    height: calc(100vw/14);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+.letter_box{
+    width: calc(100%/7);
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.letter_box p {
+    font-size: 4vw; 
+    font-family: Murs_Massive_Black_Italic; 
+    font-style: italic; 
+    transition: font-style 0.7s ease, font-family 0.7s ease; 
+}
+
+.letter_box:hover p {
+    font-style: normal; 
+    font-family: Murs_Wide_Regular; 
+}
+.button_1{
+    width: calc(100vw/14);
+    height: calc(100vw/14);
+    position: absolute;
+    left: calc(500vw/14);
+    bottom: calc(700vw/14);
+    font-family: Murs_Wide_Regular;
+    font-style: normal;
+    font-size: 2vw;
+    cursor: pointer;
+}
+.button_2{
+    width: calc(100vw/14);
+    height: calc(100vw/14);
+    position: absolute;
+    right: calc(500vw/14);
+    bottom: calc(700vw/14);
+    font-family: Murs_Wide_Regular;
+    font-style: normal;
+    font-size: 2vw;
+    cursor: pointer;
+}
+.button_3{
+    width: calc(100vw/14);
+    height: calc(100vw/14);
+    position: absolute;
+    left: calc(330vw/14);
+    top: calc(700vw/14);
+    font-family: Murs_Wide_Regular;
+    font-style: normal;
+    font-size: 2vw;
+    cursor: pointer;
+}
+.button_3:hover p {
+    font-size: 2.6vw
+}
+.button_4{
+    width: calc(200vw/14);
+    height: calc(100vw/14);
+    position: absolute;
+    left: center;
+    top: calc(700vw/14);
+    font-family: Murs_Wide_Regular;
+    font-style: normal;
+    font-size: 2vw;
+    cursor: pointer;
+}
+.button_4:hover p{
+    font-size: 2.6vw;
+}
+.button_5{
+    width: calc(200vw/14);
+    height: calc(100vw/14);
+    position: absolute;
+    right: calc(290vw/14);
+    top: calc(700vw/14);
+    font-family: Murs_Wide_Regular;
+    font-style: normal;
+    font-size: 2vw;
+    cursor: pointer;
+}
+.button_5:hover p{
+    font-size: 2.6vw;
+}
+.device_window{
+    width: calc(550vw/14);
+    height: calc(450vw/14);
+    position: absolute;
+    left: calc(120vw/14);
+    top: calc(80vw/14);
+    visibility: hidden;
+    /* убрать нижнюю команду */
+    /* display: none; */
+    /* убрать синий */
+    background-color: blue;
+    border-radius: 4vw;
+    opacity: 0.3;
+    transition: opacity 0.7s, visibility 0.5s;
+}
+
+.capsule_window{
+    width: calc(550vw/14);
+    height: calc(450vw/14);
+    position: absolute;
+    right: calc(120vw/14);
+    top: calc(80vw/14);
+    visibility: hidden;
+    /* убрать нижнюю команду */
+    /* display: none; */
+    /* убрать синий */
+    background-color: blue;
+    border-radius: 4vw;
+    opacity: 0.3;
+    transition: opacity 0.7s, visibility 0.5s;
+}
+.frame_2{
+    width: 100vw;
+    height: calc(900vw/14);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clocks{
+    width: calc(700vw/14);
+    height: calc(600vw/14);
+    position: absolute;
+    left: calc(5vw/14);
+    top: calc(5vw/14);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+.clock_center{
+    width: calc(40vw/14); 
+    height: calc(40vw/14); 
+    position: absolute;
+    left: calc(330vw/14);
+    top: calc(290vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+.clock_center:hover {
+    transform: scale(1.5);
+}
