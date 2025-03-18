@@ -155,7 +155,7 @@ html, body{
     height: calc(600vw/14);
     position: absolute;
     left: calc(5vw/14);
-    top: calc(5vw/14);
+    top: calc(50vw/14);
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -165,7 +165,7 @@ html, body{
     height: calc(40vw/14); 
     position: absolute;
     left: calc(330vw/14);
-    top: calc(290vw/14);
+    top: calc(330vw/14);
     background-color: black; 
     border-radius: 50%;
     transition: transform 0.3s ease;
@@ -173,3 +173,75 @@ html, body{
 .clock_center:hover {
     transform: scale(1.5);
 }
+.hour_hand{
+    width: calc(140vw/14);
+    height: calc(40vw/14);
+    position: absolute;
+    left: calc(170vw/14);
+    top: calc(330vw/14);
+    background-color: black;
+    transition: transform 2s ease;
+}
+/* .hour_hand {
+    animation: hour_hand_rotate 43s linear infinite;
+} */
+.minute_hand {
+    width: calc(180vw/14);
+    height: calc(20vw/14);
+    position: absolute;
+    left: calc(130vw/14);
+    top: calc(340vw/14);
+    background-color: red;
+    transition: transform 2s ease;
+}
+/* .minute_hand:hover {
+    transform: rotate(360deg);
+}
+@keyframes hour_hand_rotate {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+} */
+ .photo_jigsaw {
+    width: calc(280vw/14);
+    height: calc(100vw/14);
+    position: absolute;
+    right: calc(30vw/14);
+    top: calc(5vw/14);
+    font-family: Murs_Wide_Regular;
+    font-style: normal;
+    font-size: 2vw;
+ } 
+ /* fragments */
+ .frame_3 {
+    width: 100vw;
+    height: calc(500vw/14);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .left_ellipses {
+    width: calc(30vw/14);
+    height: calc(500vw/14);
+    position: absolute;
+    left: calc(-110vw/14);
+    top: calc(5vw/14);
+    display: flex;
+ }
+ .right_ellipses{
+    width: calc(30vw/14);
+    height: calc(500vw/14);
+    position: absolute;
+    right: calc(290vw/14);
+    top: calc(5vw/14);
+    display: flex;
+ }
+
+
+
+ 
