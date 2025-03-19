@@ -143,7 +143,7 @@ html, body{
 }
 .frame_2{
     width: 100vw;
-    height: calc(900vw/14);
+    height: calc(750vw/14);
     overflow: hidden;
     position: relative;
     display: flex;
@@ -233,14 +233,6 @@ html, body{
     top: calc(5vw/14);
     display: flex;
  }
- .right_ellipses{
-    width: calc(30vw/14);
-    height: calc(500vw/14);
-    position: absolute;
-    right: calc(290vw/14);
-    top: calc(5vw/14);
-    display: flex;
- }
 .el_01 {
     width: calc(170vw/14);
     height: calc(170vw/14);
@@ -282,8 +274,8 @@ html, body{
     cursor: pointer;
 }
 .el_05 {
-    width: calc(140vw/14);
-    height: calc(140vw/14);
+    width: calc(145vw/14);
+    height: calc(145vw/14);
     position: absolute;
     left: calc(260vw/14);
     bottom: calc(50vw/14);
@@ -371,4 +363,193 @@ html, body{
     border-radius: 50%;
     cursor: pointer;
 }
+.el_14 {
+    width: calc(35vw/14);
+    height: calc(35vw/14);
+    position: absolute;
+    left: calc(145vw/14);
+    bottom: calc(25vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.el_15 {
+    width: calc(40vw/14);
+    height: calc(40vw/14);
+    position: absolute;
+    left: calc(195vw/14);
+    bottom: calc(15vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.right_ellipses{
+    width: calc(30vw/14);
+    height: calc(500vw/14);
+    position: absolute;
+    right: calc(290vw/14);
+    top: calc(5vw/14);
+    display: flex;
+ }
+.el_1 {
+    width: calc(170vw/14);
+    height: calc(170vw/14);
+    position: absolute;
+    left: calc(190vw/14);
+    top: calc(7vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.el_2 {
+    width: calc(45vw/14);
+    height: calc(45vw/14);
+    position: absolute;
+    left: calc(43vw/14);
+    top: calc(35vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.el_3 {
+    width: calc(50vw/14);
+    height: calc(50vw/14);
+    position: absolute;
+    left: calc(132vw/14);
+    top: calc(35vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.el_4 {
+    width: calc(140vw/14);
+    height: calc(140vw/14);
+    position: absolute;
+    left: calc(1vw/14);
+    top: calc(90vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.el_5 {
+    width: calc(145vw/14);
+    height: calc(145vw/14);
+    position: absolute;
+    left: calc(5vw/14);
+    bottom: calc(50vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.el_6 {
+    width: calc(130vw/14);
+    height: calc(130vw/14);
+    position: absolute;
+    left: calc(205vw/14);
+    top: calc(310vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.el_7 {
+    width: calc(40vw/14);
+    height: calc(40vw/14);
+    position: absolute;
+    left: calc(215vw/14);
+    top: calc(175vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.el_8 {
+    width: calc(40vw/14);
+    height: calc(40vw/14);
+    position: absolute;
+    left: calc(165vw/14);
+    top: calc(185vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.el_9 {
+    width: calc(65vw/14);
+    height: calc(65vw/14);
+    position: absolute;
+    left: calc(150vw/14);
+    top: calc(240vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.el_010 {
+    width: calc(30vw/14);
+    height: calc(30vw/14);
+    position: absolute;
+    left: calc(210vw/14);
+    top: calc(290vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.el_011 {
+    width: calc(40vw/14);
+    height: calc(40vw/14);
+    position: absolute;
+    left: calc(100vw/14);
+    top: calc(263vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.el_012 {
+    width: calc(40vw/14);
+    height: calc(40vw/14);
+    position: absolute;
+    left: calc(150vw/14);
+    top: calc(395vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.el_013 {
+    width: calc(35vw/14);
+    height: calc(35vw/14);
+    position: absolute;
+    left: calc(233vw/14);
+    top: calc(440vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.el_014 {
+    width: calc(35vw/14);
+    height: calc(35vw/14);
+    position: absolute;
+    left: calc(192vw/14);
+    bottom: calc(23vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.el_015 {
+    width: calc(25vw/14);
+    height: calc(25vw/14);
+    position: absolute;
+    left: calc(175vw/14);
+    bottom: calc(4vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.el_016 {
+    width: calc(80vw/14);
+    height: calc(80vw/14);
+    position: absolute;
+    left: calc(290vw/14);
+    top: calc(200vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+
  
