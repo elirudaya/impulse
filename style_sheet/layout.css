@@ -241,7 +241,134 @@ html, body{
     top: calc(5vw/14);
     display: flex;
  }
-
-
-
+.el_01 {
+    width: calc(170vw/14);
+    height: calc(170vw/14);
+    position: absolute;
+    left: calc(50vw/14);
+    top: calc(7vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.el_02 {
+    width: calc(45vw/14);
+    height: calc(45vw/14);
+    position: absolute;
+    left: calc(235vw/14);
+    top: calc(35vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.el_03 {
+    width: calc(50vw/14);
+    height: calc(50vw/14);
+    position: absolute;
+    left: calc(325vw/14);
+    top: calc(35vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.el_04 {
+    width: calc(140vw/14);
+    height: calc(140vw/14);
+    position: absolute;
+    left: calc(270vw/14);
+    top: calc(90vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.el_05 {
+    width: calc(140vw/14);
+    height: calc(140vw/14);
+    position: absolute;
+    left: calc(260vw/14);
+    bottom: calc(50vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.el_06 {
+    width: calc(130vw/14);
+    height: calc(130vw/14);
+    position: absolute;
+    left: calc(77vw/14);
+    top: calc(310vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.el_07 {
+    width: calc(40vw/14);
+    height: calc(40vw/14);
+    position: absolute;
+    left: calc(160vw/14);
+    top: calc(175vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.el_08 {
+    width: calc(40vw/14);
+    height: calc(40vw/14);
+    position: absolute;
+    left: calc(210vw/14);
+    top: calc(185vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.el_09 {
+    width: calc(65vw/14);
+    height: calc(65vw/14);
+    position: absolute;
+    left: calc(200vw/14);
+    top: calc(240vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.el_10 {
+    width: calc(30vw/14);
+    height: calc(30vw/14);
+    position: absolute;
+    left: calc(170vw/14);
+    top: calc(290vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.el_11 {
+    width: calc(40vw/14);
+    height: calc(40vw/14);
+    position: absolute;
+    left: calc(268vw/14);
+    top: calc(263vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.el_12 {
+    width: calc(40vw/14);
+    height: calc(40vw/14);
+    position: absolute;
+    left: calc(220vw/14);
+    top: calc(395vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.el_13 {
+    width: calc(40vw/14);
+    height: calc(40vw/14);
+    position: absolute;
+    left: calc(220vw/14);
+    top: calc(395vw/14);
+    background-color: black; 
+    border-radius: 50%;
+    cursor: pointer;
+}
  
